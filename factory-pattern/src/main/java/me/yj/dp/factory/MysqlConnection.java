@@ -1,7 +1,7 @@
 package me.yj.dp.factory;
 
 /**
- * Created by Yang Jun on 2017/12/7.
+ * Created by MeYJ on 2017/12/7.
  * Mysql Connection impl
  */
 public class MysqlConnection implements DbConnection {
