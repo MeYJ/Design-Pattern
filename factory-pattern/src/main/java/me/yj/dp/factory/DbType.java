@@ -6,7 +6,9 @@ package me.yj.dp.factory;
  */
 public enum DbType {
 
-    MYSQL("me.yj.dp.factory.MysqlConnection"), ORACLE("me.yj.dp.factory.OracleConnection"), SQL_SERVER("me.yj.dp.factory.SqlServerConnection");
+    MYSQL("me.yj.dp.factory.MysqlConnection"),
+    ORACLE("me.yj.dp.factory.OracleConnection"),
+    SQL_SERVER("me.yj.dp.factory.SqlServerConnection");
 
     private String dbTypeClassName;
 

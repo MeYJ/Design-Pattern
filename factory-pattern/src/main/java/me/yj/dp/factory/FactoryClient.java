@@ -6,7 +6,8 @@ package me.yj.dp.factory;
  */
 public class FactoryClient {
 
-    public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
+    public static void main(String[] args)
+            throws IllegalAccessException, InstantiationException, ClassNotFoundException {
         // 使用Enum可以防止传入错误类型
         // 此种方式每次增加新的db类型都需要修改factory
         DbConnectionFactory factory = new DbConnectionFactory();

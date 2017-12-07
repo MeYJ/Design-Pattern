@@ -19,7 +19,8 @@ public class DbConnectionFactory {
         }
     }
 
-    public DbConnection getDbConnection(String dbTypeClassName) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
+    public DbConnection getDbConnection(String dbTypeClassName)
+            throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         return (DbConnection) Class.forName(dbTypeClassName).newInstance();
     }
 
